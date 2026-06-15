@@ -1,0 +1,116 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#071426;
+color:white;
+}
+
+nav{
+background:#0d1f38;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#4da6ff;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 8%;
+flex-wrap:wrap;
+}
+
+.content h1{
+font-size:60px;
+color:#4da6ff;
+}
+
+.content p{
+margin-top:10px;
+font-size:18px;
+}
+
+.photo img{
+width:300px;
+border-radius:20px;
+border:4px solid #4da6ff;
+}
+
+.buttons a{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#4da6ff;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.dashboard{
+padding:20px 8%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#102540;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+section{
+padding:60px 8%;
+}
+
+h2{
+margin-bottom:20px;
+color:#4da6ff;
+}
+
+.skill-box span{
+display:inline-block;
+background:#102540;
+padding:12px 20px;
+margin:8px;
+border-radius:25px;
+}
+
+.edu,.project{
+background:#102540;
+padding:20px;
+margin-bottom:15px;
+border-radius:15px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#0d1f38;
+}
